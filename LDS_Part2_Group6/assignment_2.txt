@@ -1,0 +1,77 @@
+Region,Percentage
+northern territory,18.43
+new south wales,5.59
+south australia,13.67
+western australia,25.44
+queensland,16.51
+victoria,10.89
+tasmania,9.43
+brussels,36.87
+flanders,24.09
+wallonia,39.03
+ontario,16.02
+atlantic provinces,15.3
+british columbia,17.89
+quebec,16.46
+prairie provinces,16.98
+the north,17.32
+upland france,23.56
+southwest france,14.38
+north east france,14.11
+heart of france,18.06
+north west france,15.45
+le midi france,14.41
+bremen,5.1
+saarland,6.21
+baden-wuttemberg,8.3
+saxony-anhalt,7.43
+rhineland-palatinate,4.98
+hessen,6.7
+thuringia,6.46
+mecklenburg-vorpommern,6.09
+lower saxony,6.72
+berlin,5.06
+north rhine-westphalla,6.61
+hamburg,4.3
+saxony,7.4
+brandenburg,5.59
+schleswig-holstein,6.01
+bavaria,6.96
+ulster,24.17
+connaught,24.74
+munster,30.68
+leinster,20.39
+south italy,37.89
+north italy,37.51
+center italy,24.59
+north island-central west,10.54
+south island-southern,13.72
+north island-central east,10.3
+south island-central,12.66
+northern island-northern,24.29
+south island northern,11.07
+north island-southern,17.39
+castilla,18.05
+andalucia,16.6
+galicia,16.88
+aragon,14.38
+vascongadas,14.33
+asturleon,19.73
+north west england,9.65
+south west england,6.51
+scotland,8.63
+london,11.53
+wales,9.95
+north east england,9.31
+east england,8.42
+west midlands,9.59
+south east england,8.86
+yorkshire,7.06
+east midlands,10.43
+mid-atalntic,18.02
+mid-west usa,12.77
+west usa,13.32
+north west usa,16.01
+south west usa,10.89
+south-east usa,18.24
+north-east usa,10.72

@@ -1,0 +1,29 @@
+-- QUERY 1 Show the total correct answers for each country 
+-- and the grand total with respect to the continent.
+with member Correct_ByContinent as
+([UserGeo].[Geography].currentmember.parent, [Measures].[Total_Correct])
+
+select {[Measures].[Total_Correct], Correct_ByContinent} on columns,
+([UserGeo].[Geography].[Continent], [UserGeo].[Country Name].[Country Name]) on rows
+from Group_6_Cube
+
+
+-- QUERY 2 Show the total confidence for each year and the running yearly for European students.
+with member Cumulative_Confidence as
+sum(NULL : [Date].[The Month].currentmember, [Measures].[Total_Confidence])
+
+select {[Measures].[Total_Confidence], Cumulative_Confidence} on columns,
+(nonempty([Date].[Year].[Year]), [Date].[The Month].[The Month]) on rows
+from Group_6_Cube
+where [UserGeo].[Continent].&[Europe]
+
+
+-- QUERY 3 Show the ratio between the total correct answers of each year w.r.t the previous year.
+with member Ratio as
+iif([Date].[Gerarchia].currentmember.lag(1) = 0, 1, 
+([Measures].[Total_Correct]) / ([Date].[Gerarchia].currentmember.lag(1), 
+[Measures].[Total_Correct] )),
+FORMAT_STRING = "Percent"
+select ratio on columns,
+nonempty ([Date].[Gerarchia].[Year]) on rows
+from Group_6_Cube
