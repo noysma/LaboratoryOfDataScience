@@ -66,4 +66,4 @@ Show the ratio between the total correct answers of each year w.r.t the previous
 Create a dashboard that shows the geographical distribution of correct answers and incorrect answers
 
 ### Assignment 5
-Create a plot/dashboard of your choosing, that you deem interesting w.r.t. the data available in your cube               
+Create a plot/dashboard of your choosing, that you deem interesting w.r.t. the data available in our cube               
