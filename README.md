@@ -3,12 +3,12 @@
 ## Project Assignment - Part 1
 
 ### Introduction
-In Part 1 of the project we are required to create and populate a database starting from .csv files and perform different operations on it. In the following we can find a set of incremental assignments, each one with a brief description of what you are required to produce and what tools you can use for the task.
+In Part 1 of the project we are required to create and populate a database starting from .csv files and perform different operations on it. In the following we can find a set of incremental assignments, each one with a brief description of what we are required to produce and what tools we can use for the task.
 
 ### Build the datawarehouse
 answers full.csv contains the main body of data: a table with data about answers given by students to various multiple-choice questions. In the same table, there are several data regarding the questions, the students and the subject of the questions.\
-The file subject metadata.csv contains informations about the subject of each ques- tion. The subject is given by a list of integers in the main data that can be used to index the answers full.csv to retrieve the topic of the question.\
-The goal of the following assignments is to build the schema and deploy it on server lds.di.unipi.it. Beware that, just as in real-life scenario, files may contain missing values and/or useless data.
+The file subject metadata.csv contains informations about the subject of each question. The subject is given by a list of integers in the main data that can be used to index the answers full.csv to retrieve the topic of the question.\
+The goal of the following assignments is to build the schema and deploy it on server lds.di.unipi.it. Beware that, just as in real life scenario, files may contain missing values and/or useless data.
 
 ### Assignment 0
 Create the database schema using SQL Server Management Studio. The name of the database must be GroupID DB (example: Group 01 DB).
